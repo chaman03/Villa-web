@@ -295,7 +295,7 @@ body {
 /*video on top of background*/
 
 .video-section {
-  background-image: url("./Images/video-bg.jpg");
+  background-image: url("villa/images/video-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -577,7 +577,7 @@ hr {
 
 /*contact us*/
 .contact-section {
-  background-image: url("./Images/contact-bg.jpg");
+  background-image: url("villa/images/contact-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -717,7 +717,7 @@ opacity:0.9;
 }
 
 .bg-section{
-  background-image: url("./Images/page-heading-bg.jpg");
+  background-image: url("villa/images/page-heading-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
