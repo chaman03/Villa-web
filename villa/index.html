@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VILLA-Home page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+    integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="top-navbar ">
+    <div class="left-section">
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <span>info@company.com</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="contact-item">
+        <i class="fas fa-map"></i>
+        <span>Sunny Isles Beach, FL 33160</span>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <header class="main-header">
+    <div class="logo">VILLA</div>
+
+    <nav class="nav-menu">
+      <a href="index.html" class="nav-menu">Home</a>
+      <a href="properties.html" class="nav-menu">Properties</a>
+      <a href="property-details.html" class="nav-menu">Property Details</a>
+      <a href="contact-us.html" class="nav-menu">Contact Us</a>
+
+      <a href="#" class="schedule-btn"> Schedule a visit </a>
+    </nav>
+  </header>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active position-relative">
+        <img src="./Images/banner-01.jpg" class="d-block w-100" alt="Slide 1" />
+
+        <div class="overlay"></div>
+
+        <div class="carousel-caption text-start custom-caption">
+          <span class="location-badge">
+            Toronto, <span class="highlight">Canada</span>
+          </span>
+
+          <h1 class="banner-title">
+            HURRY! <br />
+            GET THE BEST <br />
+            VILLA FOR YOU
+          </h1>
+        </div>
+      </div>
+
+      <div class="carousel-item position-relative">
+        <img src="./Images/banner-02.jpg" class="d-block w-100" alt="Slide 2" />
+
+        <div class="overlay"></div>
+
+        <div class="carousel-caption text-start custom-caption">
+          <span class="location-badge">
+            Toronto, <span class="highlight">Canada</span>
+          </span>
+
+          <h1 class="banner-title">
+            HURRY! <br />
+            GET THE BEST <br />
+            VILLA FOR YOU
+          </h1>
+        </div>
+      </div>
+
+      <div class="carousel-item position-relative">
+        <img src="./Images/banner-03.jpg" class="d-block w-100" alt="Slide 3" />
+
+        <div class="overlay"></div>
+
+        <div class="carousel-caption text-start custom-caption">
+          <span class="location-badge">
+            Toronto, <span class="highlight">Canada</span>
+          </span>
+
+          <h1 class="banner-title">
+            HURRY! <br />
+            GET THE BEST <br />
+            VILLA FOR YOU
+          </h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section class="featured">
+    <div class="container">
+      <div class="left">
+        <img src="./Images/featured.jpg" alt="featured" class="main-img" />
+
+        <div class="floating-icon">
+          <img src="./Images/featured-icon.png" alt="featured icon" />
+        </div>
+      </div>
+
+      <div class="center">
+        <p class="label">| FEATURED</p>
+
+        <h2>
+          Best Appartment <br />
+          & Sea View
+        </h2>
+
+        <div class="info-box">
+
+          <div class="accordion" id="featuredAccordion">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#featureOne">
+
+                  Best useful links ?
+                </button>
+              </h2>
+
+              <div id="featureOne" class="accordion-collapse collapse show" data-bs-parent="#featuredAccordion">
+
+                <div class="accordion-body">
+                  Get <strong>the best villa</strong> website template in HTML CSS
+                  and Bootstrap for your business. XYZ provides you the
+                  best service in the world.
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#featureTwo">
+
+                  How does this work ?
+                </button>
+              </h2>
+
+              <div id="featureTwo" class="accordion-collapse collapse" data-bs-parent="#featuredAccordion">
+
+                <div class="accordion-body">
+                  This template is built using HTML, CSS and Bootstrap.
+                  You can easily customize it for your real estate business.
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#featureThree">
+
+                  Why is Villa Agency the best ?
+                </button>
+              </h2>
+
+              <div id="featureThree" class="accordion-collapse collapse" data-bs-parent="#featuredAccordion">
+
+                <div class="accordion-body">
+                  Villa Agency provides high quality real estate services,
+                  modern design templates and easy customization options.
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="card">
+          <div class="item">
+            <img src="./Images/info-icon-01.png" alt="info-icon-01" />
+            <div>
+              <h4>250 m2</h4>
+              <span>Total Flat Space</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/info-icon-02.png" alt="info-icon-02" />
+            <div>
+              <h4>Contract</h4>
+              <span>Contract Ready</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/info-icon-03.png" alt="info-icon-03" />
+            <div>
+              <h4>Payment</h4>
+              <span>Payment Process</span>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./Images/info-icon-04.png" alt="info-icon-04" />
+            <div>
+              <h4>Safety</h4>
+              <span>24/7 Under Control</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="video-section">
+    <div class="title">
+      <p class="small-title">| VIDEO VIEW</p>
+      <h1 class="small-title-2">
+        Get Closer View & <br />
+        Different Feeling
+      </h1>
+    </div>
+
+    <div class="video-box">
+      <img src="./Images/video-frame.jpg" alt="video frame" />
+      <div class="play-button">
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="dot"></span>
+      <div class="stat-inform d-flex flex-row">
+        <h2>34</h2>
+        <p class="d-flex justify-content-between">
+          Buildings
+          <br />
+          Finished Now
+        </p>
+      </div>
+    </div>
+
+    <div class="stat">
+      <span class="dot"></span>
+      <div class="stat-inform d-flex flex-row">
+        <h2>12</h2>
+        <p class="d-flex justify-content-between">
+          Years
+          <br />
+          Experience
+        </p>
+      </div>
+    </div>
+
+    <div class="stat">
+      <span class="dot"></span>
+      <div class="stat-inform d-flex flex-row">
+        <h2 class="m-2">24</h2>
+        <p class="d-flex justify-content-between">
+          Awards
+          <br />
+          Won 2023
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="top">
+      <div class="title">
+        <p class="small">| BEST DEAL</p>
+        <h1>Find Your Best Deal<br />Right Now!</h1>
+      </div>
+
+      <div class="buttons">
+        <button>Appartment</button>
+        <button>Villa House</button>
+        <button>Penthouse</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="info-box">
+        <div class="row">
+          <span>Total Flat Space</span>
+          <b>185 m2</b>
+        </div>
+
+        <div class="row">
+          <span>Floor number</span>
+          <b>26th</b>
+        </div>
+
+        <div class="row">
+          <span>Number of rooms</span>
+          <b>4</b>
+        </div>
+
+        <div class="row">
+          <span>Parking Available</span>
+          <b>Yes</b>
+        </div>
+
+        <div class="row">
+          <span>Payment Process</span>
+          <b>Bank</b>
+        </div>
+      </div>
+
+      <div class="image deal">
+        <img src="./Images/deal-01.jpg" />
+      </div>
+
+      <div class="extra">
+        <h3>Extra Info About Property</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. incididunt
+          ut labore et dolore magna aliqua quisid ipsum suspendisse.
+        </p>
+
+        <p>
+          When you need best websites, you can simply type XYZ in any search
+          engine website. In addition, you can type XYZ Portfolio.
+        </p>
+
+        <button class="visit">Schedule a visit</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="Properties-card">
+    <div class="Properties-title">
+      <p class="small-heading">| PROPERTIES</p>
+      <h2 class="small-heading-2">
+        We Provide The Best<br />Property You Like
+      </h2>
+    </div>
+    <div class="container">
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="image">
+          <img src="./Images/property-01.jpg" alt="" />
+        </div>
+
+        <div class="card-body">
+          <div class="top">
+            <span class="tag">Luxury Villa</span>
+            <span class="price">$2.264.000</span>
+          </div>
+
+          <h3>18 New Street Miami, OR 97219</h3>
+
+          <div class="details">
+            <span>Bedrooms: <b>8</b></span>
+            <span>Bathrooms: <b>8</b></span>
+            <span>Area: <b>545m2</b></span>
+            <span>Floor: <b>3</b></span>
+            <span>Parking: <b>6 spots</b></span>
+          </div>
+
+          <hr />
+
+          <button class="card-bottons rounded-5">Schedule a visit</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="image">
+          <img src="./Images/property-02.jpg" alt="" />
+        </div>
+
+        <div class="card-body">
+          <div class="top">
+            <span class="tag">Luxury Villa</span>
+            <span class="price">$1.180.000</span>
+          </div>
+
+          <h3>54 Mid Street Florida, OR 27001</h3>
+
+          <div class="details">
+            <span>Bedrooms: <b>6</b></span>
+            <span>Bathrooms: <b>5</b></span>
+            <span>Area: <b>450m2</b></span>
+            <span>Floor: <b>3</b></span>
+            <span>Parking: <b>8 spots</b></span>
+          </div>
+
+          <hr />
+
+          <button class="card-bottons rounded-5">Schedule a visit</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="image">
+          <img src="./Images/property-03.jpg" alt="" />
+        </div>
+
+        <div class="card-body">
+          <div class="top">
+            <span class="tag">Luxury Villa</span>
+            <span class="price">$1.460.000</span>
+          </div>
+
+          <h3>26 Old Street Miami, OR 38540</h3>
+
+          <div class="details">
+            <span>Bedrooms: <b>5</b></span>
+            <span>Bathrooms: <b>4</b></span>
+            <span>Area: <b>225m2</b></span>
+            <span>Floor: <b>3</b></span>
+            <span>Parking: <b>10 spots</b></span>
+          </div>
+
+          <hr />
+
+          <button class="card-bottons rounded-5">Schedule a visit</button>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card">
+        <div class="image">
+          <img src="./Images/property-04.jpg" alt="" />
+        </div>
+
+        <div class="card-body">
+          <div class="top">
+            <span class="tag">Luxury Villa</span>
+            <span class="price">$2.264.000</span>
+          </div>
+
+          <h3>18 New Street Miami, OR 97219</h3>
+
+          <div class="details">
+            <span>Bedrooms: <b>8</b></span>
+            <span>Bathrooms: <b>8</b></span>
+            <span>Area: <b>545m2</b></span>
+            <span>Floor: <b>3</b></span>
+            <span>Parking: <b>6 spots</b></span>
+          </div>
+
+          <hr />
+
+          <button class="card-bottons rounded-5">Schedule a visit</button>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="card">
+        <div class="image">
+          <img src="./Images/property-05.jpg" alt="" />
+        </div>
+
+        <div class="card-body">
+          <div class="top">
+            <span class="tag">Luxury Villa</span>
+            <span class="price">$2.264.000</span>
+          </div>
+
+          <h3>18 New Street Miami, OR 97219</h3>
+
+          <div class="details">
+            <span>Bedrooms: <b>8</b></span>
+            <span>Bathrooms: <b>8</b></span>
+            <span>Area: <b>545m2</b></span>
+            <span>Floor: <b>3</b></span>
+            <span>Parking: <b>6 spots</b></span>
+          </div>
+
+          <hr />
+
+          <button class="card-bottons rounded-5">Schedule a visit</button>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="card">
+        <div class="image">
+          <img src="./Images/property-06.jpg" alt="" />
+        </div>
+
+        <div class="card-body">
+          <div class="top">
+            <span class="tag">Luxury Villa</span>
+            <span class="price">$2.264.000</span>
+          </div>
+
+          <h3>18 New Street Miami, OR 97219</h3>
+
+          <div class="details">
+            <span>Bedrooms: <b>8</b></span>
+            <span>Bathrooms: <b>8</b></span>
+            <span>Area: <b>545m2</b></span>
+            <span>Floor: <b>3</b></span>
+            <span>Parking: <b>6 spots</b></span>
+          </div>
+
+          <hr />
+
+          <button class="card-bottons rounded-5">Schedule a visit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact-section">
+    <div class="title">
+      <p class="small-title">| Contact Us</p>
+      <h1 class="small-title-2">
+        Get In Touch With <br />
+        Our Agents
+      </h1>
+    </div>
+    <div class="contact-container">
+
+      <div class="map-area">
+
+        <div class="map-box">
+          <iframe src="https://www.google.com/maps?q=Sunny+Isles+Beach&output=embed">
+          </iframe>
+        </div>
+
+        <div class="contact-info">
+
+          <div class="info-card">
+            <img src="./Images/phone-icon.png" class="icon">
+
+            <div class="info-text">
+              <h3>010-020-0340</h3>
+              <p>Phone Number</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./Images/email-icon.png" class="icon">
+
+            <div class="info-text">
+              <h3>info@villa.co</h3>
+              <p>Business Email</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="form-box">
+        <form>
+          <label>Full Name</label>
+          <input type="text" placeholder="Your Name..." required>
+
+          <label>Email Address</label>
+          <input type="email" placeholder="Your E-mail..." required>
+
+          <label>Subject</label>
+          <input type="text" placeholder="Subject..." required>
+
+          <label>Message</label>
+          <textarea placeholder="Your Message"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <p>
+      Copyright © 2048 Villa Agency Co., Ltd. All rights reserved.
+      Design: XYZ
+    </p>
+  </footer>
+</body>
+
+</html>
