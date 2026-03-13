@@ -352,7 +352,7 @@ body {
   height:95px;
   border-radius:50%;
   background:rgba(243,85,37,0.3);
-  z-index: index -1;;
+  z-index: -1;
 }
 
 /*stats*/
@@ -739,7 +739,7 @@ opacity:0.9;
 .banner-title2 {
   font-weight: 800;
   font-size: 60px;
-  font: 60px Arieal,Helvetica,sans-sarif;
+  font: Arieal,Helvetica,sans-sarif;
   margin-bottom: 100px;
 }
 
