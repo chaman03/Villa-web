@@ -295,7 +295,7 @@ body {
 /*video on top of background*/
 
 .video-section {
-  background-image: url("images/video-bg.jpg");
+  background-image: url("./images/video-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -577,7 +577,7 @@ hr {
 
 /*contact us*/
 .contact-section {
-  background-image: url("images/contact-bg.jpg");
+  background-image: url("./images/contact-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
@@ -717,7 +717,7 @@ hr {
 }
 
 .bg-section {
-  background-image: url("images/page-heading-bg.jpg");
+  background-image: url("./images/page-heading-bg.jpg");
   background-size: cover;
   background-position: center;
   padding: 80px 20px;
